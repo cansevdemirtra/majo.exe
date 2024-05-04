@@ -6,7 +6,8 @@
   "description": "Monorepo for majo.exe",
   "scripts": {
     "dev": "turbo run dev",
-    "build": "turbo run build --output public",
+    "build": "turbo run build",
+    "build:public": "turbo run build --output public"
     "build:force": "turbo run build:force",
     "deploy": "turbo run deploy",
     "analyze": "turbo run analyze",
